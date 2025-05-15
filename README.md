@@ -1,3 +1,10 @@
+# Mongoose (Patched)
+
+## The patch
+This is a patched version of Mongoose to allow our implementation of file uploads using the `mg_http_upload` function. 
+The patch adds a `headers` parameter to `mg_http_upload` to allow passing custom headers, which were expected by 
+our frontend.
+
 # Mongoose - Embedded Web Server / Embedded Network Library
 
 [![License: GPLv2/Commercial](https://img.shields.io/badge/License-GPLv2%20or%20Commercial-green.svg)](https://opensource.org/licenses/gpl-2.0.php)
